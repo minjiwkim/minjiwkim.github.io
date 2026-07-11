@@ -33,10 +33,12 @@ common-js:
   {% include nav.html %}
 
   {{ content }}
-
-  {# {% include footer.html %} #}
-
-  {# {% include footer-scripts.html %} #}
+  
+  {% comment %}
+  {% include footer.html %}
+  {% endcomment %}
+  
+  {% include footer-scripts.html %}
 
 </body>
 </html>
