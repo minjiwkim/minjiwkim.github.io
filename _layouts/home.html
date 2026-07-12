@@ -68,7 +68,7 @@ layout: page
         {% endif %}
 
         <div class="post-entry">
-          {% if post.permalink == "/encrypted_open/" %}
+          {% if post.protected %}
             이 게시글은 보호되어 있습니다.
           {% else %}
             {% assign excerpt_length = site.excerpt_length | default: 50 %}
