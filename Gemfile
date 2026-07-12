@@ -3,5 +3,6 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "jekyll-sitemap"
+gem "beautiful-jekyll-theme"
 gem "jekyll-paginate-v2"
+gem "jekyll-sitemap"
