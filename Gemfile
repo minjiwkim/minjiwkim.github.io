@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "beautiful-jekyll-theme"
+gem "jekyll-sitemap"
 gem "jekyll-paginate-v2"
