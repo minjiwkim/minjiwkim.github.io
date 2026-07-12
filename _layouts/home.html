@@ -4,7 +4,8 @@ layout: page
 
 {{ content }}
 
-{% assign posts = paginator.posts | default: site.posts %}
+
+{% assign posts = paginator.posts %}
 
 <div class="posts-list">
   {% for post in posts %}
@@ -89,6 +90,10 @@ layout: page
           {% endfor %}
         </div>
         {% endif %}
+
+        <p>
+현재 페이지 글 수: {{ paginator.posts.size }}
+</p>
 
       </article>
     {% endunless %}
