@@ -5,4 +5,4 @@ subtitle: "260628~260706"
 permalink: /kungbound/
 ---
 
-{% include_relative cryptbound.html %}
+{% include_relative kungbound.html %}
