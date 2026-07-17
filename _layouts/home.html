@@ -71,7 +71,7 @@ layout: page
           {% if post.protected %}
             이 게시글은 보호되어 있습니다.
           {% else %}
-            {% assign excerpt_length = site.excerpt_length | default: 50
+            {% assign excerpt_length = site.excerpt_length | default: 50 %}
             {% assign excerpt_word_count = post.excerpt | number_of_words %}
 
           {% comment %}
