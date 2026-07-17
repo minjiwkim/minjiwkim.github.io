@@ -194,16 +194,7 @@ timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: "/page:num/"
-  title: ":title - page :num"
-  sort_field: "date"
-  sort_reverse: true
-
-autopages:
-  enabled: false
+paginate: 5
 
 kramdown:
   input: GFM
@@ -236,13 +227,8 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-
-gems:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
