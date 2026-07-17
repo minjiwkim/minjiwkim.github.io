@@ -2,7 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "beautiful-jekyll-theme"
-gem "jekyll-paginate-v2"
-gem "jekyll-sitemap"
+gemspec
