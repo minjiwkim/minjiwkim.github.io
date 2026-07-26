@@ -1,9 +1,9 @@
 ---
 layout: minimal
-title: "[헥카]크리그어0"
+title: "[헥카]크리그어4"
 subtitle: "260711"
-permalink: /CreaGRRR0_hecka/
+permalink: /CreaGRRR4_hecka/
 protected: true
 ---
 
-{% include_relative CreaGRRR0Hecka-protected.html %}
+{% include_relative CreaGRRR4Hecka-protected.html %}
