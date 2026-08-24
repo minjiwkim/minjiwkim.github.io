@@ -6,4 +6,4 @@ permalink: /affection_silence_hecka/
 protected: true
 ---
 
-{% include_relative AffectionSilenceHecka-protected-protected.html %}
+{% include_relative AffectionSilenceHecka-protected.html %}
