@@ -2,7 +2,7 @@
 layout: minimal
 title: "[꿍바-젭멧]정크러쉬"
 subtitle: "260828"
-permalink: /JUNKRUSH_Lugh_Claris/
+permalink: /junkrush_lugh_claris/
 protected: false
 ---
 
